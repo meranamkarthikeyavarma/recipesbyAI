@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from receipebycourse import recipeByCourse
 
+
 # List of URLs from recipeByCourse
 urls = recipeByCourse()
 
