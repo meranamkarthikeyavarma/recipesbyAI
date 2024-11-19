@@ -50,5 +50,6 @@ for url in urls:  # Modify the range as needed
 # Save all recipes to a JSON file
 with open("recipesbyIng.json", "w") as file:
     json.dump(all_recipes, file, indent=4)
+    
 
 print("Recipe data has been successfully saved to recipes.json")
